@@ -140,9 +140,9 @@ const Navigation = () => {
                 <ListItemText primary="Videos" />
               </ListItem>
               <Divider />
-              <ListItem button onClick={() => navigateTo('/settings')}>
+              <ListItem button onClick={() => navigateTo('/Home')}>
                 <ListItemIcon sx={{ minWidth: '40px', marginLeft: '8px' }}><SettingsIcon /></ListItemIcon>
-                <ListItemText primary="Settings" />
+                <ListItemText primary="Home" />
               </ListItem>
             </>
           )}
